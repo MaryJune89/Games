@@ -3,52 +3,39 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="This app lets you play dice game">
-	<meta name="keywords" content="dice, game, play">
+	<meta name="description" content="This is where your description goes">
+	<meta name="keywords" content="one, two, three">
 
-
+	<title>Title in the tab</title>
 
 	<!-- external CSS link -->
-
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Kalam:wght@700&family=Kaushan+Script&family=Roboto:wght@100;400&family=Source+Sans+Pro&display=swap"
 		rel="stylesheet">
-
-	<link type="text/css" rel="stylesheet" href="style.css">
-
-	<title>Dice Game</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<div class="container">
-		<h1>Let's Play</h1>
 
-		<div class="dice">
-			<p class="Player1">Player 1</p>
-			<img class="img1" src="dice6.png">
-		</div>
+	<h1>Card Game!</h1>
 
-		<div class="dice">
-			<p class="Player2">Player 2</p>
-			<img class="img2" src="dice6.png">
-		</div>
-	</div>
+	<button>Deal 2 Cards</button>
 
-	<div class="container bottom">
-		<button type="button" class="butn" onClick="rollTheDice()">
-			Roll the Dice
-		</button>
-	</div>
-	<div class="container bottom">
-		<button type="button" class="butn" onClick="editNames()">
-			Enter Names
-		</button>
-	</div>
+	<h2>Player 1</h2>
+	<img id="player1" src="" alt="playing card">
+	<!--place to put cards-->
+	<h2>Player 2</h2>
+	<img id="player2" scr="" alt="playing card">
 
-	<script type="text/javascript" src="main.js"></script>
+
+	<h3>Result</h3>
+
+
+
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
