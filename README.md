@@ -1,2 +1,2 @@
 # Games
-Games built using HTML, CSS &amp; JS
+Games built using APIs, HTML, CSS &amp; JS
